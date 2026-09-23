@@ -1,6 +1,9 @@
 {
   "install": "cd app && npm install",
-  "terminals": {
-    "dev-server": "cd app && npm run dev -- --host 0.0.0.0"
-  }
+  "terminals": [
+    {
+      "name": "dev-server",
+      "command": "cd app && npm run dev -- --host 0.0.0.0"
+    }
+  ]
 }
