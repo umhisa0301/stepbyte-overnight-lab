@@ -1,4 +1,6 @@
 {
   "install": "cd app && npm install",
-  "start": "cd app && npm run dev -- --host 0.0.0.0"
+  "terminals": {
+    "dev-server": "cd app && npm run dev -- --host 0.0.0.0"
+  }
 }
